@@ -1,7 +1,46 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+const iGetTheJoke = true;
+iGetTheJoke;
+const havingFun = false;
+havingFun;
 
+const learning = true;
+
+const killingIt= iGetTheJoke && havingFun;
+
+function returnFalse(param){
+  return returnFalse=== param
+}
+
+function isOpposite(bool){
+return isOpposite === !bool
+}
+
+function both(bool1,bool2){
+return both === bool1 && bool2  
+}
+
+function either(bool1,bool2){
+return either === bool1 || bool2 
+}
+
+function firstOnly(){
+
+}
+
+function secondOnly(){
+
+}
+
+function neither(){
+
+}
+
+function itsComplicated(){
+
+}
 
 
 
