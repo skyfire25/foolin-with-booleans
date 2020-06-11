@@ -23,23 +23,24 @@ return bool1 && bool2;
 }
 
 function either(bool1,bool2){
-return bool1 || bool2;
+return bool1 ||  bool2;
 }
 
-function firstOnly(){
-
+function firstOnly(bool1, bool2){
+return bool1 && !bool2;
 }
 
-function secondOnly(){
 
+function secondOnly(bool1, bool2){
+return !bool1 && bool2;
 }
 
-function neither(){
-
+function neither(bool1, bool2){
+return !bool1 && !bool2;
 }
 
-function itsComplicated(){
-
+function itsComplicated(bool1, bool2, bool3){
+return !bool1 || bool2 && bool3; 
 }
 
 
