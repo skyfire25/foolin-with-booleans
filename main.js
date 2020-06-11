@@ -10,12 +10,12 @@ const learning = true;
 
 const killingIt= iGetTheJoke && havingFun;
 
-function returnFalse(param){
-  return returnFalse=== param
+function returnFalse(bool){
+  return false; 
 }
 
 function isOpposite(bool){
-return isOpposite === !bool
+return !bool;
 }
 
 function both(bool1,bool2){
