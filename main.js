@@ -23,7 +23,7 @@ return bool1 && bool2;
 }
 
 function either(bool1,bool2){
-return either === bool1 || bool2 
+return bool1 || bool2;
 }
 
 function firstOnly(){
